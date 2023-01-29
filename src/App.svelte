@@ -56,8 +56,8 @@
     </p>
     <p>
       The API used comes from <a
-        href="http://open-notify.org/Open-Notify-API/ISS-Location-Now/"
-        >Open-notify API</a
+        href="https://wheretheiss.at/"
+        >Wheretheiss.at</a
       >.
     </p>
   </div>
