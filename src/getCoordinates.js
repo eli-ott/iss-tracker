@@ -1,11 +1,12 @@
-let url = "http://api.open-notify.org/iss-now.json";
+let url = "https://api.wheretheiss.at/v1/satellites/25544";
 
-let coordinates = [];
+let coordinates;
 
 export default async function getIssPosition() {
   const response = await fetch(url);
   const data = await response.json();
-  coordinates = data.iss_position;
+  coordinates = {latitude: data.latitude, longitude: data.longitude};
+  console.log(coordinates);
 
   return coordinates;
 }
